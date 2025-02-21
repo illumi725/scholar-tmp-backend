@@ -54,6 +54,6 @@ app.post('/api/scholars/update', (req, res) => {
   });
 });
 
-app.listen(PORT, IP_ADDRESS, () => {
-  console.info(`Server is running on http://${IP_ADDRESS}:${PORT}`)
+app.listen(PORT, () => {
+  console.info(`Server is running on ${PORT}`)
 });
